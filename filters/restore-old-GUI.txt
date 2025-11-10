@@ -1,0 +1,64 @@
+! отключение нового фона панели управления
+! disabling new Control Panel background
+www.youtube.com##.ytp-chrome-controls:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0) !important;)
+
+! перемещение панели управления чуть ниже
+! moving the control panel lower
+www.youtube.com##.ytd-watch-flexy .ytp-chrome-controls:style(transform: translateY(7px) !important;)
+
+! перемещение прогресс-бара чуть ниже
+! moving the progress bar lower
+www.youtube.com##.ytd-watch-flexy .ytp-progress-bar-container:style(transform: translateY(15px) !important;)
+
+! цвет фона прогресс бара светлей
+! progress bar fone color is lighter
+www.youtube.com##.ytd-watch-flexy .ytp-progress-list:style(background-color: rgba(255,255,255,0.2) !important;)
+
+! включение старого градиента фона сверху и снизу плеера, нельзя юзать колесо мышки в фуллскрине!!!
+! enabling background gradient at the top and bottom of the player; you can't use the mouse wheel in fullscreen!!!
+www.youtube.com##.ytp-gradient-top:style(display: block !important;)
+www.youtube.com##.ytp-gradient-bottom:style(display: block !important;)
+
+! цвет меню настроек и правого клика
+! color the settings menu and right click
+www.youtube.com##.ytp-popup:style(background-color: rgba(28, 28, 28, 0.9) !important;)
+
+! цвет, затемнение, закругление фона всплывающих секунд (появляются при нажатии влево/вправо на курсоре клавы)
+! color, rounding of the background of pop-up seconds (appear when you press left/right on the keyboard cursor)
+www.youtube.com##.ytp-seek-overlay-animation:style(background-color: rgba(28, 28, 28, 0.8) !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(padding: 8px 16px !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(border-radius: 18px !important;)
+
+! цвет, закругление фона всплывающего текста громкости в центре экрана (появляется при нажатии вверх/вниз на курсоре клавы)
+! color, rounded background of the volume pop-up text in the center of the screen (appears when you press up/down on the keyboard cursor)
+www.youtube.com##.ytp-bezel-text:style(background-color: rgba(28, 28, 28, 0.8) !important;)
+www.youtube.com##.ytp-bezel-text:style(border-radius: 18px !important;)
+
+! цвет фона всплывающего плей/пауза в центре экрана
+! color background pop-up play/pause in the center of the screen
+www.youtube.com##.ytp-bezel:style(background-color: rgba(28, 28, 28, 0.8) !important;)
+
+! цвет фона всплывающих подсказок горячих клавиш
+! color background pop-up hotkey tooltips
+www.youtube.com##.ytp-tooltip:style(--yt-spec-overlay-background-medium-light: rgba(28, 28, 28, 0.8) !important;)
+
+! цвет фона времени при наведении курсора на прогресс бар
+! color background of the time when hovering over the progress bar
+www.youtube.com##.ytp-tooltip-progress-bar-pill:style(background-color: rgba(28, 28, 28, 0.8) !important;)
+
+! цвет фона превью при наведении курсора на тайм лайн (избавляет от стробоскопа)
+! color preview background when hovering over the timeline (eliminates the strobe)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(background-color: rgba(28, 28, 28, 0.8) !important;)
+
+! удаление панели лайков в фуллскрине
+! removing the likes panel in fullscreen mode
+www.youtube.com##.ytPlayerQuickActionButtonsHostDisableBackdropFilter
+
+! удаление шлака прокрутки колеса в фуллскрине
+! removing crap when scrolling the wheel in fullscreen
+www.youtube.com##.ytp-fullscreen-grid
+
+! удаление чата в фуллскрине
+! deleting a chat in fullscreen
+www.youtube.com###panels-full-bleed-container
+

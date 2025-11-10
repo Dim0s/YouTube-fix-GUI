@@ -1,0 +1,54 @@
+﻿! цвет и блюр фона панели управления
+! color and blur control panel background
+www.youtube.com##.ytp-chrome-controls:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-chrome-controls:style(--yt-frosted-glass-backdrop-filter-override: blur(16px) !important;)
+
+! блюр меню настроек и правого клика
+! blur the settings menu and right click
+www.youtube.com##.ytp-popup:style(--yt-frosted-glass-backdrop-filter-override:blur(16px) !important;)
+
+! блюр окна статистики сисадмина
+! blur system administrator statistics window
+www.youtube.com##.html5-video-info-panel:style(backdrop-filter: blur(16px) !important;)
+
+! цвет, затемнение, закругление, блюр фона всплывающих секунд (появляются при нажатии влево/вправо на курсоре клавы)
+! blur, color, darkening, rounding of the background of pop-up seconds (appear when you press left/right on the keyboard cursor)
+www.youtube.com##.ytp-seek-overlay-animation:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(padding: 8px 16px !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(border-radius: 18px !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(backdrop-filter: blur(16px) !important;)
+
+! цвет и закругление фона всплывающего текста громкости в центре экрана (появляется при нажатии вверх/вниз на курсоре клавы)
+! color and rounded background of the volume pop-up text in the center of the screen (appears when you press up/down on the keyboard cursor)
+www.youtube.com##.ytp-bezel-text:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-bezel-text:style(border-radius: 18px !important;)
+
+! цвет и блюр фона всплывающего плей/пауза в центре экрана
+! color and blur background pop-up play/pause in the center of the screen
+www.youtube.com##.ytp-bezel:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-bezel:style(backdrop-filter: blur(16px) !important;)
+
+! цвет и блюр фона всплывающих подсказок горячих клавиш
+! color and blur background pop-up hotkey hints
+www.youtube.com##.ytp-tooltip:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-tooltip:style(backdrop-filter: blur(16px)  !important;)
+
+! цвет фона времени при наведении курсора на прогресс бар
+! color background of the time when hovering over the progress bar
+www.youtube.com##.ytp-tooltip-progress-bar-pill:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+
+! цвет и рамка фона превью которая появляется при наведении курсора на прогресс бар (избавляет от стробоскопа при быстром перемещении)
+! background color and frame for video preview when hovering over the timeline (eliminates stroboscopic effect when moving the cursor quickly)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(padding: 5px !important;)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(border-radius: 10px !important;)
+
+! цвет и блюр панели кнопок лайков в фуллскрине
+! color and blur like button panel in full screen mode
+www.youtube.com##.ytPlayerQuickActionButtonsHost:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytPlayerQuickActionButtonsHost:style(backdrop-filter: blur(16px) !important;)
+
+! цвет и блюр фона названия ролика в фуллскрине
+! blur and darken the background of the video title in full screen
+www.youtube.com##.ytPlayerOverlayVideoDetailsRendererHost:style(background-color: rgba(0, 0, 0, 0.3) !important;)
+www.youtube.com##.ytPlayerOverlayVideoDetailsRendererHost:style(backdrop-filter: blur(16px) !important;)
