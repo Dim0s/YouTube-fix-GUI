@@ -21,7 +21,8 @@ www.youtube.com##.ytd-watch-flexy .ytp-gradient-bottom:style(display: block !imp
 
 ! цвет меню настроек и правого клика
 ! color the settings menu and right click
-www.youtube.com##.ytd-watch-flexy .ytp-popup:style(background-color: rgba(28, 28, 28, 0.9) !important;)
+www.youtube.com##.ytp-popup:style(background-color: rgba(28, 28, 28, 0.9) !important;)
+www.youtube.com##.ytp-popup.ytp-contextmenu.ytp-delhi-modern-contextmenu:style(backdrop-filter: blur(0px) !important;)
 
 ! цвет, затемнение, закругление фона всплывающих секунд (появляются при нажатии влево/вправо на курсоре клавы)
 ! color, rounding of the background of pop-up seconds (appear when you press left/right on the keyboard cursor)
