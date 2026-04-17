@@ -1,6 +1,6 @@
 ! отключение нового фона панели управления
 ! disabling new Control Panel background
-www.youtube.com##.ytd-watch-flexy .ytp-chrome-controls:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0) !important;)
+www.youtube.com##.ytd-watch-flexy .ytp-chrome-controls:style(--yt-sys-color-baseline--overlay-background-medium-light: rgba(0, 0, 0, 0) !important;)
 
 ! перемещение панели управления чуть ниже
 ! moving the control panel lower
@@ -40,7 +40,7 @@ www.youtube.com##.ytd-watch-flexy .ytp-bezel:style(background-color: rgba(28, 28
 
 ! цвет фона всплывающих подсказок горячих клавиш
 ! color background pop-up hotkey tooltips
-www.youtube.com##.ytd-watch-flexy .ytp-tooltip:style(--yt-spec-overlay-background-medium-light: rgba(28, 28, 28, 0.8) !important;)
+www.youtube.com##.ytd-watch-flexy .ytp-tooltip:style(--yt-sys-color-baseline--overlay-background-medium-light: rgba(28, 28, 28, 0.8) !important;)
 
 ! цвет фона времени при наведении курсора на прогресс бар
 ! color background of the time when hovering over the progress bar
